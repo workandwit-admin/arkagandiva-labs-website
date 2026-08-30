@@ -22,15 +22,15 @@ export default function Home() {
           <div className="hero-copy">
             <div className="eyebrow">Independent software product studio</div>
 
-            <h1>
-              Ideas that inspire.
+             <h1>
+              Ideas with purpose.
               <br />
-              <span>Technology that creates.</span>
+              <span>Products with possibility.</span>
             </h1>
-
+            
             <p>
-              Arka Gandiva Labs builds thoughtful digital products that combine
-              imagination, intelligent technology, and delightful user experiences.
+              Arka Gandiva Labs creates thoughtful digital products that combine
+              imagination, intelligent technology, and beautifully simple experiences.
             </p>
 
             <div className="hero-actions">
