@@ -167,11 +167,11 @@ button, input, textarea { font:inherit; }
 .legal-meta { font-size:.9rem!important; color:#8E97B3!important; }
 .legal-note { margin-top:42px; padding:20px 22px; border-radius:16px; background:rgba(242,198,109,.08); border:1px solid rgba(242,198,109,.18); color:#D7C28E; line-height:1.65; }
 
-.lunomi-hero { padding:145px 0 110px; background:
+.lunomi- { padding:145px 0 110px; background:
   radial-gradient(circle at 75% 30%, rgba(242,198,109,.12), transparent 20rem),
   linear-gradient(180deg,#111832,#201D43 65%,#0A1023); }
-.lunomi-hero-grid { display:grid; grid-template-columns:1.1fr .9fr; gap:70px; align-items:center; }
-.lunomi-hero h1 { font-size:clamp(3.3rem,6vw,6.3rem); margin-bottom:15px; }
+.lunomi--grid { display:grid; grid-template-columns:1.1fr .9fr; gap:70px; align-items:center; }
+.lunomi- h1 { font-size:clamp(3.3rem,6vw,6.3rem); margin-bottom:15px; }
 .lunomi-tagline { color:var(--gold); font-weight:800; font-size:1.25rem; }
 .lunomi-book { width:400px; height:400px; position:relative; justify-self:center; display:grid; place-items:center; }
 .book-glow { position:absolute; width:260px; height:260px; border-radius:50%; background:rgba(242,198,109,.16); filter:blur(30px); }
@@ -194,9 +194,9 @@ button, input, textarea { font:inherit; }
 @media (max-width: 900px) {
   .nav { display:none; }
   .header-inner .button-small { margin-left:auto; }
-  .hero-grid, .product-card, .lunomi-hero-grid { grid-template-columns:1fr; }
-  .hero { min-height:auto; }
-  .hero-visual { height:420px; }
+  .-grid, .product-card, .lunomi--grid { grid-template-columns:1fr; }
+  . { min-height:auto; }
+  .-visual { height:420px; }
   .product-card { padding:32px; }
   .feature-grid, .steps-grid { grid-template-columns:repeat(2,1fr); }
   .footer-grid { grid-template-columns:repeat(2,1fr); }
@@ -206,9 +206,9 @@ button, input, textarea { font:inherit; }
 @media (max-width: 620px) {
   .container { width:min(100% - 28px, var(--max)); }
   .site-header .brand span:last-child { display:none; }
-  .hero-grid { padding:75px 0 60px; }
-  .hero-copy h1 { font-size:3.4rem; }
-  .hero-visual { height:350px; transform:scale(.82); }
+  .-grid { padding:75px 0 60px; }
+  .-copy h1 { font-size:3.4rem; }
+  .-visual { height:350px; transform:scale(.82); }
   .section { padding:80px 0; }
   .product-card { padding:24px; border-radius:26px; }
   .feature-grid, .feature-grid.compact, .steps-grid, .length-grid, .footer-grid, .values-grid { grid-template-columns:1fr; }
@@ -349,8 +349,8 @@ button, input, textarea { font:inherit; }
   }
 }
 .hero-brand-symbol {
-  width: 150px;
-  height: 150px;
+  width: 96px;
+  height: 96px;
   object-fit: contain;
   display: block;
 }
