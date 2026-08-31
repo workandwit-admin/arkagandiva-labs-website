@@ -10,6 +10,7 @@ import {
   Trophy,
   WandSparkles,
 } from 'lucide-react'
+import arkaGandivaIcon from '../assets/branding/arka_gandiva_app_icon.png'
 
 export default function Home() {
   return (
@@ -49,8 +50,11 @@ export default function Home() {
             <div className="orbital-ring ring-two" />
 
             <div className="gandiva-symbol">
-              <div className="bow-shape">)</div>
-              <div className="arrow-line">➶</div>
+              <img
+                src={arkaGandivaIcon}
+                alt=""
+                className="hero-brand-symbol"
+              />
             </div>
 
             <div className="floating-card floating-card-one">
