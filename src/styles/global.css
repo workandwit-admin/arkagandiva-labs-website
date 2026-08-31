@@ -33,7 +33,14 @@ button, input, textarea { font:inherit; }
   background:rgba(8,13,28,.72); border-bottom:1px solid rgba(255,255,255,.06);
 }
 .header-inner { height:76px; display:flex; align-items:center; gap:28px; }
-.brand { display:flex; align-items:center; gap:12px; font-weight:750; letter-spacing:-.02em; white-space:nowrap; }
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 800;
+}
 .brand-mark { width:34px; height:34px; border-radius:50%; display:grid; place-items:center; position:relative;
   background:linear-gradient(145deg, rgba(242,198,109,.18), rgba(119,115,215,.22));
   border:1px solid rgba(242,198,109,.34); }
@@ -41,7 +48,13 @@ button, input, textarea { font:inherit; }
 .brand-arrow { font-size:15px; color:var(--gold); transform:translate(2px,-1px); }
 .nav { margin-left:auto; display:flex; gap:24px; color:var(--muted); }
 .nav a:hover, .nav a.active { color:var(--text); }
-
+.brand-logo {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+}
 .button {
   display:inline-flex; align-items:center; justify-content:center; gap:8px; min-height:48px; padding:0 20px;
   border-radius:14px; background:linear-gradient(135deg,var(--gold),#E3A94A); color:#161326; font-weight:750;
