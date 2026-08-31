@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import { ArrowUpRight } from 'lucide-react'
+import arkaGandivaIcon from '../assets/branding/arka_gandiva_app_icon.png'
 
 export default function Layout({ children }) {
   const location = useLocation()
@@ -32,10 +33,11 @@ export default function Layout({ children }) {
       <header className="site-header">
         <div className="container header-inner">
           <Link className="brand" to="/">
-            <span className="brand-mark" aria-hidden="true">
-              <span className="brand-arc" />
-              <span className="brand-arrow">➶</span>
-            </span>
+            <img
+              src={arkaGandivaIcon}
+              alt="Arka Gandiva Labs"
+              className="brand-logo"
+            />
             <span>Arka Gandiva Labs</span>
           </Link>
 
@@ -61,10 +63,11 @@ export default function Layout({ children }) {
         <div className="container footer-grid">
           <div>
             <div className="brand footer-brand">
-              <span className="brand-mark" aria-hidden="true">
-                <span className="brand-arc" />
-                <span className="brand-arrow">➶</span>
-              </span>
+              <img
+                src={arkaGandivaIcon}
+                alt=""
+                className="brand-logo"
+              />
               <span>Arka Gandiva Labs LLC</span>
             </div>
 
