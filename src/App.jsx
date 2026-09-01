@@ -17,6 +17,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/support" element={<Support />} />
         <Route path="/privacy" element={<Privacy />} />
+        <Route path="/terms" element={<Terms />} />
         <Route path="/lunomi" element={<Lunomi />} />
         <Route path="/lunomi/support" element={<LunomiSupport />} />
         <Route path="/lunomi/privacy" element={<LunomiPrivacy />} />
