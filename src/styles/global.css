@@ -544,3 +544,188 @@ button, input, textarea { font:inherit; }
   width: 38px;
   height: 38px;
 }
+/* ================================
+   MOBILE RESPONSIVE
+   ================================ */
+
+@media (max-width: 768px) {
+
+  /* GLOBAL */
+
+  .container {
+    width: min(100% - 32px, 1180px);
+  }
+
+  .section {
+    padding: 60px 0;
+  }
+
+
+  /* HEADER */
+
+  .header-inner {
+    min-height: 64px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .brand span {
+    font-size: .9rem;
+  }
+
+  .brand-logo {
+    width: 32px;
+    height: 32px;
+  }
+
+  .button-small {
+    min-height: 38px;
+    padding: 0 14px;
+    font-size: .82rem;
+  }
+
+
+  /* HERO */
+
+  .hero {
+    min-height: auto;
+    padding: 64px 0 70px;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 42px;
+    padding: 0;
+  }
+
+  .hero-copy {
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero-copy h1 {
+    font-size: clamp(3rem, 14vw, 4.4rem);
+    line-height: .95;
+    max-width: 100%;
+  }
+
+  .hero-copy p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .hero-actions {
+    gap: 10px;
+  }
+
+  .hero-visual {
+    height: 330px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .orbital-ring.ring-one {
+    width: 250px;
+    height: 250px;
+  }
+
+  .orbital-ring.ring-two {
+    width: 320px;
+    height: 320px;
+  }
+
+
+  /* SECTION HEADINGS */
+
+  .section-heading {
+    margin-bottom: 30px;
+  }
+
+  .section-heading h2 {
+    font-size: clamp(2.4rem, 11vw, 3.5rem);
+  }
+
+
+  /* PRODUCT CARDS */
+
+  .product-card {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    gap: 30px;
+    padding: 28px 22px;
+    border-radius: 26px;
+  }
+
+  .product-card h3 {
+    font-size: clamp(2.4rem, 11vw, 3.5rem);
+    margin: 16px 0;
+  }
+
+  .product-card p {
+    font-size: .98rem;
+  }
+
+
+  /* FEATURES */
+
+  .feature-grid,
+  .feature-grid.compact {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin: 24px 0;
+  }
+
+  .feature-grid > div {
+    padding: 18px;
+  }
+
+
+  /* PRODUCT VISUALS */
+
+  .product-visual,
+  .lunomi-visual,
+  .hatchahabit-visual {
+    position: relative;
+    width: 100%;
+    min-height: 360px;
+    height: auto;
+    overflow: hidden;
+  }
+
+
+  /* HOW WE BUILD */
+
+  .section-soft {
+    padding: 60px 0;
+  }
+
+  .values-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+
+  /* FOOTER */
+
+  .footer {
+    padding: 45px 0 20px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 34px 24px;
+  }
+
+  .footer-grid > div:first-child {
+    grid-column: 1 / -1;
+  }
+
+  .footer-bottom {
+    margin-top: 35px;
+    padding-top: 20px;
+    font-size: .8rem;
+  }
+
+}
