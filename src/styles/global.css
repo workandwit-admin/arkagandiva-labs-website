@@ -240,7 +240,7 @@ button, input, textarea { font:inherit; }
 .coming-card strong { color:var(--text); }
 .values .feature-grid { margin-bottom:0; }
 
-.footer { padding:70px 0 24px; border-top:1px solid rgba(255,255,255,.07); }
+.footer { padding:55px 0 24px; border-top:1px solid rgba(255,255,255,.07); }
 .footer-grid { display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:35px; }
 .footer-grid h4 { margin:0 0 16px; }
 .footer-grid a { display:block; color:var(--muted); margin:10px 0; }
