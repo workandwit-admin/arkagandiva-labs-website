@@ -94,7 +94,7 @@ export default function Home() {
                 </div>
 
                 <div className="product-status product-status-live">
-                  Available soon
+                  Coming soon
                 </div>
 
                 <h3>
@@ -175,7 +175,7 @@ export default function Home() {
                 </div>
 
                 <h3>
-                  Turn everyday habits into adventures kids want to complete.
+                  Turn everyday routines into adventures kids want to complete.
                 </h3>
 
                 <p>
@@ -209,9 +209,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="button button-ghost product-disabled">
-                  HatchaHabit is coming soon
-                </div>
+                
               </div>
 
               <div className="hatch-preview">
