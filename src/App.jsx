@@ -7,6 +7,7 @@ import Privacy from './pages/Privacy'
 import Lunomi from './pages/lunomi/Lunomi'
 import LunomiSupport from './pages/lunomi/Support'
 import LunomiPrivacy from './pages/lunomi/Privacy'
+import Terms from './pages/Terms'
 
 export default function App() {
   return (
