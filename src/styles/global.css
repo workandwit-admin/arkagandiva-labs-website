@@ -349,8 +349,8 @@ button, input, textarea { font:inherit; }
   }
 }
 .hero-brand-symbol {
-  width: 115px;
-  height: 115px;
+  width: 125px;
+  height: 125px;
   object-fit: contain;
   display: block;
 }
