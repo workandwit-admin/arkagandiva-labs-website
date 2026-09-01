@@ -78,7 +78,7 @@ export default function Layout({ children }) {
 
           <div>
             <h4>Products</h4>
-            <Link to="/lunomi">Lunomi</Link>
+            <Link to="/lunomi">Lunom</Link>
             <span className="footer-link-muted">HatchaHabit</span>
           </div>
           
