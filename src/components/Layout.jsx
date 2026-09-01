@@ -79,25 +79,22 @@ export default function Layout({ children }) {
           <div>
             <h4>Products</h4>
             <Link to="/lunomi">Lunomi</Link>
+            <span className="footer-link-muted">HatchaHabit</span>
           </div>
-
+          
           <div>
             <h4>Company</h4>
             <Link to="/about">About</Link>
             <Link to="/support">Support</Link>
-            <a href="mailto:contact@arkagandivalabs.com">
-              Contact
-            </a>
+            <a href="mailto:contact@arkagandivalabs.com">Contact</a>
           </div>
-
+          
           <div>
             <h4>Legal</h4>
             <Link to="/privacy">Privacy</Link>
-            <Link to="/lunomi/privacy">
-              Lunomi Privacy
-            </Link>
+            <Link to="/terms">Terms of Use</Link>
+            <Link to="/lunomi/privacy">Lunomi Privacy</Link>
           </div>
-        </div>
 
         <div className="container footer-bottom">
           © 2026 Arka Gandiva Labs LLC. All rights reserved.
