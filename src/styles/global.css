@@ -220,7 +220,13 @@ button, input, textarea { font:inherit; }
   display: grid;
   gap: 28px;
 }
+#products {
+  padding-bottom: 55px;
+}
 
+.section.section-soft {
+  padding-top: 65px;
+}
 .product-card-hatch {
   background:
     radial-gradient(circle at 82% 30%, rgba(242, 198, 109, 0.11), transparent 18rem),
