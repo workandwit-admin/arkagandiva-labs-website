@@ -1383,9 +1383,15 @@ textarea {
     gap: 36px;
   }
 
-  .lunomi-book {
-    width: 280px;
-    height: 280px;
+   .lunomi-book {
+      width: 280px;
+      height: 280px;
+    }
+  
+    /* About page */
+    .about-page {
+      padding-bottom: 55px;
+    }
   }
 }
 
@@ -1397,7 +1403,7 @@ textarea {
   .container {
     width: min(100% - 28px, var(--max));
   }
-
+  
   .hero {
     padding: 50px 0 48px;
   }
