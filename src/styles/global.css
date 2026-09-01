@@ -196,9 +196,21 @@ button, input, textarea { font:inherit; }
 
 .section { padding:110px 0; }
 .section-soft { background:linear-gradient(180deg,rgba(255,255,255,.025),rgba(255,255,255,.045)); border-block:1px solid rgba(255,255,255,.05); }
+.section.section-soft {
+  padding-top: 70px;
+  padding-bottom: 75px;
+}
 .section-heading { max-width:760px; margin-bottom:48px; }
 .section-heading.narrow { max-width:630px; }
 .section-heading h2 { font-size:clamp(2.2rem,4.2vw,4.5rem); line-height:1.02; letter-spacing:-.045em; margin:14px 0; }
+.values .section-heading h2 {
+  font-size: clamp(2.2rem, 3.6vw, 3.9rem);
+  line-height: 1.04;
+  max-width: 600px;
+}
+.values .section-heading {
+  margin-bottom: 30px;
+}
 .section-heading p { color:var(--muted); font-size:1.1rem; line-height:1.7; }
 
 .product-card { display:grid; grid-template-columns:1.15fr .85fr; gap:42px; min-height:620px; padding:46px;
@@ -461,4 +473,63 @@ button, input, textarea { font:inherit; }
   font-weight: 750;
   text-transform: uppercase;
   letter-spacing: .08em;
+}
+.values .feature-grid {
+  margin: 0;
+  gap: 16px;
+}
+
+.values .feature-grid > div {
+  min-height: 125px;
+  padding: 22px 20px;
+  justify-content: flex-start;
+  background: rgba(255,255,255,.05);
+  border: 1px solid rgba(255,255,255,.09);
+}
+
+.values .feature-grid strong {
+  font-size: 1rem;
+}
+
+.values .feature-grid span {
+  font-size: .92rem;
+  line-height: 1.55;
+}
+/* How We Build section refinements */
+
+.section.section-soft {
+  padding-top: 70px;
+  padding-bottom: 75px;
+}
+
+.values .section-heading {
+  margin-bottom: 30px;
+}
+
+.values .section-heading h2 {
+  font-size: clamp(2.2rem, 3.6vw, 3.9rem);
+  line-height: 1.04;
+  max-width: 600px;
+}
+
+.values .feature-grid {
+  margin: 0;
+  gap: 16px;
+}
+
+.values .feature-grid > div {
+  min-height: 125px;
+  padding: 22px 20px;
+  justify-content: flex-start;
+  background: rgba(255,255,255,.05);
+  border: 1px solid rgba(255,255,255,.09);
+}
+
+.values .feature-grid strong {
+  font-size: 1rem;
+}
+
+.values .feature-grid span {
+  font-size: .92rem;
+  line-height: 1.55;
 }
