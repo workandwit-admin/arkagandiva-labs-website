@@ -1041,7 +1041,19 @@ textarea {
   .container {
     width: min(100% - 32px, var(--max));
   }
-
+  .support-page .support-card {
+    padding: 24px 20px;
+    margin: 18px 0;
+    gap: 20px;
+  }
+  
+  .support-page .support-card .button {
+    width: 100%;
+  }
+  
+  .support-page {
+    padding-bottom: 55px;
+  }
   .section {
     padding: 60px 0;
   }
