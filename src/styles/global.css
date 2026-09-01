@@ -49,8 +49,8 @@ button, input, textarea { font:inherit; }
 .nav { margin-left:auto; display:flex; gap:24px; color:var(--muted); }
 .nav a:hover, .nav a.active { color:var(--text); }
 .brand-logo {
-  width: 52px;
-  height: 52px;
+  width: 48px;
+  height: 48px;
   object-fit: contain;
   display: block;
   flex-shrink: 0;
