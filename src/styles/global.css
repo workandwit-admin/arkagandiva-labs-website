@@ -248,6 +248,12 @@ button, input, textarea { font:inherit; }
 .footer-brand { margin-bottom:12px; }
 .muted { color:var(--muted); }
 .footer-bottom { color:#7F88A4; padding-top:36px; margin-top:36px; border-top:1px solid rgba(255,255,255,.06); font-size:.9rem; }
+.footer-link-muted {
+  display: block;
+  color: var(--muted);
+  margin: 10px 0;
+  opacity: .72;
+}
 
 .page-top { padding-top:130px; min-height:70vh; }
 .content-page, .legal-page { max-width:900px; }
