@@ -801,6 +801,24 @@ textarea {
   margin-top: 40px;
   font-size: 1.7rem;
 }
+.legal-page a {
+  color: var(--gold);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.legal-page h2 {
+  margin-top: 42px;
+  margin-bottom: 14px;
+}
+
+@media (max-width: 768px) {
+  .legal-page p,
+  .legal-page li {
+    font-size: 1rem;
+    line-height: 1.75;
+  }
+}
 
 .values-grid {
   display: grid;
